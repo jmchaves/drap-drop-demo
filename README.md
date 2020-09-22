@@ -1,6 +1,6 @@
 # Drag and drop demo
 This app is a project to demonstrate my abilities developing apps.
-[Live application here](https://javi.page/event-app)
+[Live application here](www.javi.page/drag-drop-demo/)
 
 ### Features
   - Ability to sort images by dragging and dropping.
