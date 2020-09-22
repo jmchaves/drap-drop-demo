@@ -1,0 +1,22 @@
+.container {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.header {
+  width: 100%;
+  position: fixed;
+  background: #141414;
+  padding: 10px;
+  padding-bottom: 0;
+  z-index: 1;
+  .logo {
+    width: 250px;
+    margin: 6px;
+    margin-bottom: 0;
+  }
+}
+
+.divider {
+  height: 57px;
+}

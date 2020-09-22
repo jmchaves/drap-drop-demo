@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="header">
+    <img src="assets/logo.png" class="logo" alt="logo">
+  </div>
+  <div class="divider"></div>
+  <div infiniteScroll
+  [infiniteScrollDistance]="0.5"
+  [infiniteScrollThrottle]="50"
+  [scrollWindow]="true"
+  (scrolled)="scrolled()">
+    <app-boxshots-list [boxshots]="boxshots"></app-boxshots-list>
+    <app-loading-spinner></app-loading-spinner>
+  </div>  
+</div>

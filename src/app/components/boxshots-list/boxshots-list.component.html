@@ -1,0 +1,10 @@
+<div class="boxshots">
+  <div class="box" *ngFor="let box of boxshots" ngSortgridItem [ngSortGridItems]="boxshots"
+  [ngStyle]="{ 'width' : box.width + 'px', 'height': box.height + 'px',  'background-image': 'url(' + box.fullPath + ')'}">
+  <div class="overlay">
+    {{ box.movieId }} <br>
+    {{ box.width }}w x {{ box.height }}h <br>
+    {{ box.deploymentTs | date }}
+  </div>
+</div>
+</div>
